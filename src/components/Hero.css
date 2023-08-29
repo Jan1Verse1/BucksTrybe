@@ -1,0 +1,74 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 90vw !important;
+    height: 647px !important;
+    background-color: #080F30;
+    border: 2px solid red;
+    align-self: center;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 20px;
+    position: absolute;
+
+}
+
+.herotexts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+
+.HeadTexts {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    color: #fff;
+
+}
+
+.HeadTexts span {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    color: #C18C0A;
+}
+
+.headptext {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+}
+
+.Phone1 {
+    width: 332px;
+    height: 624px;
+    position: absolute;
+    top: 42px;
+    z-index: 20;
+    left: 1140px;
+
+}
+
+.Phone2 {
+    width: 342px;
+    height: 664px;
+    position: absolute;
+    top: 172.4px;
+    z-index: 10;
+    left: 1370px;
+}
+
+.appbuttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.appbuttons img {
+    margin-right: 20px;
+}
