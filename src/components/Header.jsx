@@ -20,7 +20,7 @@ const Header = (props) => {
           <li>About Us</li>
           <li>Contact Us</li>
         </ul>
-        <button className="btn">Get the App</button>
+        <button className="thebtn">Get the App</button>
       </div>
     </header>
   );

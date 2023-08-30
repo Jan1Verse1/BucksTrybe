@@ -4,7 +4,7 @@
     width: 90vw !important;
     height: 647px !important;
     background-color: #080F30;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-self: center;
     overflow: hidden;
     border-radius: 20px;
@@ -15,25 +15,30 @@
 }
 
 .herotexts {
+    max-width: 720px;
     display: flex;
     flex-direction: column;
     margin-left: 40px;
     margin-top: 40px;
-
+    position: relative;
+    z-index: 2;
 }
 
 .HeadTexts {
-    font-size: 48px;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -.03em;
     font-weight: bold;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     color: #fff;
-
 }
 
 .HeadTexts span {
-    font-size: 48px;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -.03em;
     font-weight: bold;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     color: #C18C0A;
 }
 

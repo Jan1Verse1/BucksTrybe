@@ -1,12 +1,5 @@
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-family: Ubuntu, DM Sans;
-  line-height: 1.5;
-  font-weight: 400;
-  width: 100vw;
-
-
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-} */
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #f6f8ff;
+}

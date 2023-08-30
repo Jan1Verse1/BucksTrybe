@@ -8,7 +8,8 @@ header {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  z-index: 999;
 }
 
 .logo {
@@ -40,12 +41,13 @@ header {
   list-style-type: none;
 }
 
-.btn {
+.thebtn {
   width: 160px;
   height: 48px;
   padding: 7px 25px;
   background-color: #162A87;
   border: none;
+  font-size: 14px;
   font: inherit;
   color: rgba(255, 255, 255, 1);
   font-size: 0.7rem;
