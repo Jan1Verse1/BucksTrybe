@@ -7,6 +7,7 @@ header {
   align-items: center;
   justify-content: space-between;
   position: sticky;
+  /* position: fixed; */
   top: 0;
   /* border: 2px solid red; */
   z-index: 999;
@@ -27,7 +28,9 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
 }
+
 
 .nav {
   display: flex;
@@ -35,10 +38,12 @@ header {
 }
 
 .nav>li {
-  font-size: 24px;
+  font-size: 20px;
   color: #333;
   margin-left: 40px;
   list-style-type: none;
+  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .thebtn {
@@ -54,4 +59,27 @@ header {
   cursor: pointer;
   border-radius: 6px;
   margin-left: 40px;
+}
+
+/* Default styles for the menu */
+.menu {
+  display: none;
+  /* Hide the menu by default */
+  /* Other styles for your menu */
+}
+
+/* Styles for the "open" class (visible menu) */
+.menu.open {
+  display: block;
+  /* Display the menu when the "open" class is applied */
+  /* Other styles for your open menu */
+}
+
+/* Add mobile-specific styles here using media queries */
+@media (max-width: 768px) {
+  .menu {
+    display: block;
+    max-height: max-content;
+    padding: 12px;
+  }
 }

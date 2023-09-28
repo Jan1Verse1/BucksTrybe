@@ -1,0 +1,135 @@
+.News {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 120px;
+    padding: 40px;
+    /* border: 2px solid red; */
+}
+
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding: 12px;
+}
+
+.newstext {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.newstextHeader {
+    color: #333;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.newstextP {
+    color: #333;
+    font-size: 1.3em;
+    line-height: 1.6;
+}
+
+.accordionitem {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    color: #333;
+    padding-top: 12px;
+    margin-bottom: 12px;
+    border-top: 1px solid #333
+}
+
+.accordiontitle {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    color: #333;
+    font-size: 1.3em;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.accordioncontent {
+    display: flex;
+    flex-direction: row;
+    color: #333;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6;
+    /* border: 1px solid red; */
+    /* border-radius: 10px; */
+}
+
+.faqicon {
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    color: #162A87;
+}
+
+.MoreFAQS {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    color: #162A87;
+    padding-top: 12px;
+    transition: transform 0.3s ease-in-out;
+    border-top: 1px solid #333;
+    /* Add transition for smooth animation */
+}
+
+.MoreFAQS:hover {
+    transform: translateX(10px);
+    /* Apply translation to move the element to the left */
+}
+
+.forward {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    color: #162A87;
+    transition: transform 0.3s ease-in-out;
+    /* Add the same transition to the arrow */
+}
+
+.learn:hover .forward {
+    transform: translateX(10px);
+    /* Apply translation to the arrow within .learn on hover */
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputtext {
+    width: auto;
+    height: 48px;
+    background-color: #e0e0e0;
+    border: 1px solid #3333;
+    color: #333;
+    font-size: 1.3em;
+    padding: 8px 8px 8px 8px;
+    margin-right: 12px;
+    border-radius: 12px;
+}
+
+.saveBtn {
+    width: 160px;
+    height: auto;
+    padding: 7px 25px;
+    background-color: #162A87;
+    border: none;
+    font-size: 14px;
+    font: inherit;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 12px;
+}

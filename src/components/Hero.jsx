@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import AppStore from "../assets/Images/App Store.png";
-import PlayStore from "../assets/Images/App Store.png";
+import PlayStore from "../assets/Images/Play Store.png";
 import Phone1 from "../assets/Images/Hero Phone1.png";
 import Phone2 from "../assets/Images/Hero Phone2.png";
 import "./Hero.css";
@@ -42,7 +42,7 @@ const Hero = () => {
     });
     console.log("E dy work for here 3");
     // Apply reveal animation to the second phone
-    sr.reveal(".phonee", {
+    sr.reveal(".lastphone", {
       origin: "bottom",
       delay: 4000,
     });
@@ -60,8 +60,9 @@ const Hero = () => {
           BucksTrybe way is the safe way.
         </p>
         <div className="appbuttons buttons">
-          <img src={AppStore} alt="App Store logo" />
+          <img className="downbtnn" src={AppStore} alt="App Store logo" />
           <img
+            className="downbtnn"
             src={PlayStore}
             alt="Play Store logo"
             // onClick={navigateHandler}
@@ -69,7 +70,7 @@ const Hero = () => {
         </div>
       </div>
       <img className="Phone1 phone" src={Phone1} alt="App Store logo" />
-      <img className="Phone2 phonee" src={Phone2} alt="App Store logo" />
+      <img className="Phone2 lastphone" src={Phone2} alt="App Store logo" />
       <div></div>
     </div>
   );

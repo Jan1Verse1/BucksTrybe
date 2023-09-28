@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw !important;
+    /* border: 2px solid red; */
+    align-self: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 40px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.containertexts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.Bigtext {
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -.03em;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.Bigtext span {
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -.03em;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #F2B00D;
+}
+
+.ptext {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.OfferingCard {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.CardCon {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: max-content;
+    background-color: #162A87;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.title {
+    font-size: 24px;
+    line-height: auto;
+    /* letter-spacing: -.03em; */
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #F2B00D;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 24px;
+    /* letter-spacing: -.03em; */
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+}
+
+
+.learn p {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    font-size: 16px;
+    color: #F2B00D;
+
+}
+
+
+.learn {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    color: #F2B00D;
+    transition: transform 0.3s ease-in-out;
+    /* Add transition for smooth animation */
+}
+
+.learn:hover {
+    transform: translateX(10px);
+    /* Apply translation to move the element to the left */
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    color: #F2B00D;
+    transition: transform 0.3s ease-in-out;
+    /* Add the same transition to the arrow */
+}
+
+.learn:hover .arrow {
+    transform: translateX(10px);
+    /* Apply translation to the arrow within .learn on hover */
+}

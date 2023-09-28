@@ -1,32 +1,28 @@
-.hero {
+.BlueJoin {
     display: flex;
     flex-direction: column;
-    width: 90vw !important;
-    height: 560px !important;
+    width: 80VW !important;
+    height: auto !important;
     background-color: #162A87;
     /* border: 2px solid red; */
-    align-self: center;
-    overflow: hidden;
+    align-items: center;
     border-radius: 20px;
     margin: 40px;
     margin-bottom: 120px;
-    padding: 20px;
-    position: relative;
+    padding: 120px;
 
 }
 
-.herotexts {
-    max-width: 40vw;
+.BlueJointexts {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
-    margin-top: 40px;
-    /* position: relative;
-    z-index: 2; */
+    /* margin-top: 40px; */
+    align-items: center;
 }
 
-.HeadTexts {
-    font-size: 32px;
+.BlueJoinHeadTexts {
+    font-size: 3em;
     line-height: 56px;
     letter-spacing: -.03em;
     font-weight: bold;
@@ -34,8 +30,8 @@
     color: #fff;
 }
 
-.HeadTexts span {
-    font-size: 32px;
+.BlueJoinHeadTexts span {
+
     line-height: 56px;
     letter-spacing: -.03em;
     font-weight: bold;
@@ -44,33 +40,15 @@
 }
 
 .headptext {
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 400;
     font-family: 'DM Sans', sans-serif;
     color: #fff;
     margin-top: 1em;
 }
 
-.Phone1 {
-    width: 302px;
-    height: 554px;
-    position: absolute;
-    top: 40px;
-    z-index: 20;
-    left: 64vw;
-}
 
-.Phone2 {
-    width: 302px;
-    height: 554px;
-    position: absolute;
-    top: 16vw;
-    z-index: 10;
-    left: 76vw;
-
-}
-
-.appbuttons {
+.appbuttonss {
     display: flex;
     flex-direction: row;
     margin-top: 1em;
