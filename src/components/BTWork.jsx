@@ -52,7 +52,7 @@ const BTWorks = () => {
       origin: "left",
       delay: 400,
     });
-    console.log("E dy work for here");
+    // console.log("E dy work for here");
 
     // Apply reveal animation to headp
     sr.reveal(".rightcard", {

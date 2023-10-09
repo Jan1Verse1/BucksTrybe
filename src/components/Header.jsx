@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./header.css";
 import Logo from "../assets/Images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -26,27 +26,33 @@ const Header = (props) => {
       </div>
       <div className={`menu ${isMenuOpen ? "open" : ""}`}>
         <ul className="nav">
-          <li>About Us</li>
+          <li>
+            <Link to="/about">About Us</Link>
+          </li>
           <li>Our Offerings</li>
-          <li>FAQs</li>
-          <li>Contact Us</li>
-          <li>Blog</li>
+          <li>
+            <Link to="/faqs">FAQs</Link>
+          </li>
+          <li>
+            <Link to="/contactus">Contact Us</Link>
+          </li>
+          <li>
+            <Link to="/">Blog</Link>
+          </li>
         </ul>
         <button className="thebtn">Get the App</button>
       </div>
-      <div className="hamburger" onClick={toggleMenu}>
+      {/* <div className="hamburger" onClick={toggleMenu}>
         {isMenuOpen ? (
-          /* Display the "X" icon when the menu is open */
           <span>
             <FontAwesomeIcon icon={faXmark} />
           </span>
         ) : (
-          /* Display the hamburger icon when the menu is closed */
           <span>
             <FontAwesomeIcon icon={faBars} />
           </span>
         )}
-      </div>
+      </div> */}
     </header>
   );
 };

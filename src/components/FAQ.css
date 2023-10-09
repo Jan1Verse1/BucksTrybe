@@ -1,0 +1,165 @@
+.faqs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 60vw;
+    align-self: center;
+    /* justify-self: center; */
+    padding: 20px;
+    /* margin: 40px auto; */
+}
+
+.accordionitem {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 60vw;
+    color: #333;
+    padding-top: 12px;
+    margin-bottom: 12px;
+    border-top: 1px solid #333
+}
+
+.accordiontitle {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    color: #333;
+    font-size: 1.3em;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.accordioncontent {
+    display: flex;
+    flex-direction: row;
+    color: #333;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6;
+    /* border: 1px solid red; */
+    /* border-radius: 10px; */
+}
+
+.faqicon {
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    color: #162A87;
+}
+
+.inputtext {
+    width: auto;
+    height: 48px;
+    background-color: #e0e0e0;
+    border: 1px solid #3333;
+    color: #333;
+    font-size: 1.3em;
+    padding: 8px 8px 8px 8px;
+    margin-right: 12px;
+    border-radius: 12px;
+}
+
+.saveBtn {
+    width: 160px;
+    height: auto;
+    padding: 7px 25px;
+    background-color: #162A87;
+    border: none;
+    font-size: 14px;
+    font: inherit;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.linknn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 40px;
+}
+
+.LinkContact {
+    font-size: 1.3em;
+    line-height: auto;
+    letter-spacing: -.03em;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.LinkContact span {
+    color: #F2B00D;
+}
+
+.linknn {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    align-self: center;
+    color: #162A87;
+    padding-top: 12px;
+    transition: transform 0.3s ease-in-out;
+    /* Add transition for smooth animation */
+}
+
+.linknn:hover {
+    transform: translateX(10px);
+    /* Apply translation to move the element to the left */
+}
+
+.forward {
+    width: 24px;
+    height: 24px;
+    margin-top: 16px;
+    margin-left: 24px;
+    color: #162A87;
+    transition: transform 0.3s ease-in-out;
+    /* Add the same transition to the arrow */
+}
+
+.linknn:hover .forward {
+    transform: translateX(10px);
+    /* Apply translation to the arrow within .learn on hover */
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    margin: 24px;
+}
+
+.headText {
+    font-size: 3em;
+    line-height: auto;
+    letter-spacing: -.03em;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #F2B00D;
+    margin-bottom: 4px;
+}
+
+.headP {
+    font-size: 1.3em;
+    line-height: auto;
+    letter-spacing: -.03em;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+    margin-bottom: 4px;
+}

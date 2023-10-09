@@ -21,26 +21,26 @@ const Hero = () => {
       origin: "bottom",
       delay: 400,
     });
-    console.log("E dy work for here");
+    // console.log("E dy work for here");
 
     // Apply reveal animation to headp
     sr.reveal(".headp", {
       origin: "bottom",
       delay: 1200,
     });
-    console.log("E dy work for here 1");
+    // console.log("E dy work for here 1");
     // Apply reveal animation to the buttons
     sr.reveal(".buttons", {
       origin: "bottom",
       delay: 2400,
     });
-    console.log("E dy work for here 2");
+    // console.log("E dy work for here 2");
     // Apply reveal animation to the first phone
     sr.reveal(".phone", {
       origin: "right",
       delay: 3000,
     });
-    console.log("E dy work for here 3");
+    // console.log("E dy work for here 3");
     // Apply reveal animation to the second phone
     sr.reveal(".lastphone", {
       origin: "bottom",

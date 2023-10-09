@@ -44,7 +44,16 @@ header {
   list-style-type: none;
   font-weight: 600;
   font-family: 'DM Sans', sans-serif;
+
 }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+}
+
+
 
 .thebtn {
   width: 160px;
@@ -61,21 +70,8 @@ header {
   margin-left: 40px;
 }
 
-/* Default styles for the menu */
-.menu {
-  display: none;
-  /* Hide the menu by default */
-  /* Other styles for your menu */
-}
 
-/* Styles for the "open" class (visible menu) */
-.menu.open {
-  display: block;
-  /* Display the menu when the "open" class is applied */
-  /* Other styles for your open menu */
-}
 
-/* Add mobile-specific styles here using media queries */
 @media (max-width: 768px) {
   .menu {
     display: block;

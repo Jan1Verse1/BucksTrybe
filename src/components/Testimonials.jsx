@@ -31,28 +31,28 @@ const Testimonials = () => {
       Quote: <FontAwesomeIcon icon={faQuoteLeft} className="Quote" />,
       Testimonial:
         "Saving with BucksTrybe is quite easy. I can see all the activities going on in my savings group. I particularly love that one person cannot withdraw without the approval of the group.",
-      Name: "Jacob Adele",
+      Name: "Sumbo Odeku",
       location: "Lagos",
     },
     {
       Quote: <FontAwesomeIcon icon={faQuoteLeft} className="Quote" />,
       Testimonial:
         "Saving with BucksTrybe is quite easy. I can see all the activities going on in my savings group. I particularly love that one person cannot withdraw without the approval of the group.",
-      Name: "Musa Adamu",
+      Name: "Liafian Kim",
       location: "Lagos",
     },
     {
       Quote: <FontAwesomeIcon icon={faQuoteLeft} className="Quote" />,
       Testimonial:
         "Saving with BucksTrybe is quite easy. I can see all the activities going on in my savings group. I particularly love that one person cannot withdraw without the approval of the group.",
-      Name: "Sharon Uche",
+      Name: "Aladelola Goerge",
       location: "Lagos",
     },
     {
       Quote: <FontAwesomeIcon icon={faQuoteLeft} className="Quote" />,
       Testimonial:
         "Saving with BucksTrybe is quite easy. I can see all the activities going on in my savings group. I particularly love that one person cannot withdraw without the approval of the group.",
-      Name: "Jacob Adele",
+      Name: "Adekunle Uche",
       location: "Lagos",
     },
   ];

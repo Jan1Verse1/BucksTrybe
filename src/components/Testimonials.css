@@ -123,4 +123,14 @@
 .Testimonialscard {
     animation: slideRightToLeft 80s linear infinite;
     /* Adjust animation duration as needed */
+    overflow-x: hidden;
+    /* Hide horizontal overflow */
+    /* Prevent line breaks and keep cards on a single line */
+}
+
+/* Add this rule to ensure the cards are displayed in a single line */
+.TestimonialC {
+    display: inline-block;
+    margin-right: 20px;
+    /* Adjust the margin as needed to control spacing between cards */
 }
