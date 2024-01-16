@@ -12,8 +12,8 @@ const FAQAccordion = ({ Question, Answer }) => {
   };
 
   return (
-    <div className="accordionitem">
-      <div className="accordiontitle" onClick={handleAccordionClick}>
+    <div className="fullAccordionitem">
+      <div className="fullAccordiontitle" onClick={handleAccordionClick}>
         <div>{Question}</div>
         <div>
           {isActive ? (
@@ -23,7 +23,7 @@ const FAQAccordion = ({ Question, Answer }) => {
           )}
         </div>
       </div>
-      {isActive && <div className="accordioncontent">{Answer}</div>}
+      {isActive && <div className="fullAccordioncontent">{Answer}</div>}
     </div>
   );
 };

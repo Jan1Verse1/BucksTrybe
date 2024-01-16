@@ -5,7 +5,7 @@
     padding: 10px;
 }
 
-.accordion {
+.FullAccordion {
     display: flex;
     flex-direction: column;
     /* border: 2px solid red; */
@@ -16,7 +16,7 @@
     /* margin: 40px auto; */
 }
 
-.accordionitem {
+.fullAccordionitem {
     display: flex;
     flex-direction: column;
     /* border: 2px solid red; */
@@ -27,7 +27,7 @@
     border-top: 1px solid #333
 }
 
-.accordiontitle {
+.fullAccordiontitle {
     display: flex;
     flex-direction: row;
     /* border: 2px solid red; */
@@ -38,7 +38,7 @@
     margin-bottom: 12px;
 }
 
-.accordioncontent {
+.fullAccordioncontent {
     display: flex;
     flex-direction: row;
     color: #333;
@@ -82,13 +82,7 @@
     border-radius: 12px;
 }
 
-.linknn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    margin-bottom: 40px;
-}
+
 
 .LinkContact {
     font-size: 1.3em;
@@ -114,6 +108,7 @@
     padding-top: 12px;
     transition: transform 0.3s ease-in-out;
     /* Add transition for smooth animation */
+    margin: 80px;
 }
 
 .linknn:hover {
@@ -121,7 +116,7 @@
     /* Apply translation to move the element to the left */
 }
 
-.forward {
+.fullForward {
     width: 24px;
     height: 24px;
     margin-top: 16px;
@@ -131,7 +126,7 @@
     /* Add the same transition to the arrow */
 }
 
-.linknn:hover .forward {
+.linknn:hover .fullForward {
     transform: translateX(10px);
     /* Apply translation to the arrow within .learn on hover */
 }

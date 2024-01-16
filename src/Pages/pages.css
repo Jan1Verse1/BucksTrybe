@@ -159,15 +159,13 @@
     /* Add any other textarea styles as needed */
 }
 
-.character-counter {
+/* .character-counter {
     position: absolute;
     bottom: -215px;
     left: 1395px;
-    font-size: 12px;
-    /* Adjust the font size as needed */
+    font-size: 12px; 
     color: #999;
-    /* Text color for the character counter */
-}
+} */
 
 .mission {
     display: flex;
@@ -260,4 +258,62 @@
     gap: 96px;
     align-self: center;
     margin-bottom: 40px;
+}
+
+.serviceFeatureCard {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: max-content;
+    background-color: #080F30;
+    padding: 40px;
+    /* margin: 40px; */
+    border-radius: 20px;
+    color: #fff;
+}
+
+.sFeaturescard {
+    /* border: solid 1px red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    margin-top: 12px;
+}
+
+.theService {
+    display: flex;
+    flex-direction: column;
+    background-color: #162A87;
+    /* border: solid 1px red; */
+    align-self: center;
+    align-items: center;
+    padding: 32px;
+    margin-bottom: 40px;
+}
+
+.serviceName {
+    font-size: 1.8em;
+    line-height: auto;
+    letter-spacing: -.03em;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #F2B00D;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.serviceTalks,
+.servicef {
+    font-size: 1.3em;
+    font-weight: 400;
+    /* line-height: 56px; */
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.featuresTalk {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
 }

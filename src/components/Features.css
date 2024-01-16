@@ -93,6 +93,31 @@
     /* Add a smooth transition effect */
 }
 
+.sFeatureCardText {
+    display: flex;
+    flex-direction: column;
+}
+
+.sheader {
+    font-size: 1.8em;
+    line-height: auto;
+    letter-spacing: -.03em;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #F2B00D;
+    margin-bottom: 4px;
+}
+
+.scopi {
+    font-size: 1.2em;
+    line-height: auto;
+    letter-spacing: -.03em;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
 
 /* Features.css */
 

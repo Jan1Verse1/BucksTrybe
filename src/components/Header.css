@@ -71,6 +71,15 @@ a {
 }
 
 
+.menu {
+  position: relative;
+}
+
+.menu li {
+  position: relative;
+  cursor: pointer;
+}
+
 
 @media (max-width: 768px) {
   .menu {

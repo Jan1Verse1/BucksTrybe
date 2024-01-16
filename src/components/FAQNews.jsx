@@ -4,6 +4,7 @@ import HomeAccordion from "./HomeAccordion";
 import { HomeAccordionData } from "../Accordion/HomeAccordionContent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 import "./FAQNews.css";
 
 const FAQNews = () => {
@@ -25,10 +26,13 @@ const FAQNews = () => {
             <HomeAccordion key={Question} Question={Question} Answer={Answer} />
           ))}
         </div>
-        <p className="MoreFAQS">
-          More FAQS
-          <FontAwesomeIcon icon={faArrowRightLong} className="forward" />
-        </p>
+        <Link to="/faqs">
+          {" "}
+          <p className="MoreFAQS">
+            More FAQS
+            <FontAwesomeIcon icon={faArrowRightLong} className="forward" />
+          </p>
+        </Link>
       </div>
       <div className="newsletter">
         <div className="newstext">
@@ -40,13 +44,13 @@ const FAQNews = () => {
         </div>
         <div>
           <form
-            className="formContainer"
+            className="newsFormContainer"
             // onSubmit={handleSubmit(dataPaymentSave)}
           >
             <div className="input">
               <input
                 type="email"
-                className="inputtext"
+                className="newsinputtext"
                 placeholder="Enter Email Address"
                 {...register("Email", {
                   required: "Email Address is required.",

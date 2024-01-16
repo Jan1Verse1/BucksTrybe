@@ -33,11 +33,16 @@
     line-height: 1.6;
 }
 
+.accordion {
+    width: 40vw;
+}
+
 .accordionitem {
     display: flex;
     flex-direction: column;
     /* border: 2px solid red; */
     color: #333;
+    width: 40vw;
     padding-top: 12px;
     margin-bottom: 12px;
     border-top: 1px solid #333
@@ -46,6 +51,7 @@
 .accordiontitle {
     display: flex;
     flex-direction: row;
+    width: 40vw;
     /* border: 2px solid red; */
     color: #333;
     font-size: 1.3em;
@@ -58,6 +64,7 @@
     display: flex;
     flex-direction: row;
     color: #333;
+    width: 40vw;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.6;
@@ -78,6 +85,7 @@
     cursor: pointer;
     align-items: center;
     color: #162A87;
+    width: 40vw;
     padding-top: 12px;
     transition: transform 0.3s ease-in-out;
     border-top: 1px solid #333;
@@ -92,7 +100,8 @@
 .forward {
     width: 24px;
     height: 24px;
-    margin-left: 8px;
+    /* margin-left: 8px; */
+    margin-top: 0px;
     color: #162A87;
     transition: transform 0.3s ease-in-out;
     /* Add the same transition to the arrow */
@@ -103,13 +112,15 @@
     /* Apply translation to the arrow within .learn on hover */
 }
 
-.formContainer {
+.newsFormContainer {
     display: flex;
     flex-direction: row;
+    width: 30vw;
+    /* border: 1px solid red; */
 }
 
-.inputtext {
-    width: auto;
+.newsinputtext {
+    width: 360px;
     height: 48px;
     background-color: #e0e0e0;
     border: 1px solid #3333;

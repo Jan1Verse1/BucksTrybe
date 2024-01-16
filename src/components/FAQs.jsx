@@ -13,7 +13,7 @@ const FAQs = () => {
         <h3 className="headText">FAQS</h3>
         <p className="headP">Here are our frequently asked questions</p>
       </div>
-      <div className="accordion">
+      <div className="FullAccordion">
         {FAQAccordionData.map(({ Question, Answer }) => (
           <FAQAccordion key={Question} Question={Question} Answer={Answer} />
         ))}
@@ -22,7 +22,7 @@ const FAQs = () => {
         <p className="LinkContact">
           Would you rather <span>Contact Us </span> for answers your question
         </p>
-        <FontAwesomeIcon icon={faArrowRightLong} className="forward" />
+        <FontAwesomeIcon icon={faArrowRightLong} className="fullForward" />
       </Link>
     </div>
   );

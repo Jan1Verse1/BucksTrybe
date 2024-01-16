@@ -177,9 +177,9 @@ const Contact = () => {
             <p className="errorMsg" role="alert">
               {errors.message && errors.message.message}
             </p>
-            <div className="character-counter">
+            {/* <div className="character-counter">
               {messageLength}/{maxLength}
-            </div>
+            </div> */}
           </div>
           <button type="submit" className="submitBtn">
             Submit
@@ -190,7 +190,7 @@ const Contact = () => {
         <p className="LinkContact">
           Want to see if our <span>FAQs</span> answer your question
         </p>
-        <FontAwesomeIcon icon={faArrowRightLong} className="forward" />
+        <FontAwesomeIcon icon={faArrowRightLong} className="fullForward" />
       </Link>
       <Footer />
     </div>

@@ -1,14 +1,23 @@
+// Header.js
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./header.css";
 import Logo from "../assets/Images/logo.png";
+import OfferingModal from "../contents/offeringModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
-// ...
-
 const Header = (props) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isOfferingModalOpen, setIsOfferingModalOpen] = useState(false);
+
+  const openOfferingModal = () => {
+    setIsOfferingModalOpen(true);
+  };
+
+  const closeOfferingModal = () => {
+    setIsOfferingModalOpen(false);
+  };
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -29,7 +38,19 @@ const Header = (props) => {
           <li>
             <Link to="/about">About Us</Link>
           </li>
-          <li>Our Offerings</li>
+          <li
+            onMouseOver={openOfferingModal}
+            onMouseOut={closeOfferingModal}
+            className="offerings-item"
+          >
+            Our Offerings
+            {isOfferingModalOpen && (
+              <OfferingModal onClose={closeOfferingModal} />
+            )}
+          </li>
+          <li>
+            <Link to="/calculator">Our Calculator</Link>
+          </li>
           <li>
             <Link to="/faqs">FAQs</Link>
           </li>

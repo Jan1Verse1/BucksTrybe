@@ -55,7 +55,7 @@ export const TeammembersInfo = [
   },
   {
     Image: <img src={kehny} alt="Kehinde's Picture" />,
-    Name: "Big Penz",
+    Name: "Big Pegz",
     Position: "Management",
   },
 ];
