@@ -1,5 +1,5 @@
 import React from "react";
-import BWLogo from "../assets/Images/B&WLogo.png";
+import BWLogo from "../assets/images/B&WLogo.png";
 import "./TheFooter.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
