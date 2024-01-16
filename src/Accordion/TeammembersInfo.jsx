@@ -1,6 +1,6 @@
 import React from "react";
-import tope from "../assets/Images/Tope-Akande-1.png";
-import kehny from "../assets/Images/Kehinde-Olubayo-1.png";
+import tope from "../assets/images/Tope-Akande-1.png";
+import kehny from "../assets/images/Kehinde-Olubayo-1.png";
 
 export const TeammembersInfo = [
   {
