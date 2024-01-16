@@ -24,6 +24,7 @@ const Header = (props) => {
   };
 
   const navigate = useNavigate();
+  
   const navigateHandler = () => {
     navigate("/");
   };
