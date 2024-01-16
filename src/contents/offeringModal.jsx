@@ -22,7 +22,7 @@
 // OfferingModal.js
 import React from "react";
 import { Link } from "react-router-dom";
-import "./OfferingModal.css"; // You can style your modal here
+import "./offeringModal.css"; // You can style your modal here
 
 const OfferingModal = ({ onClose }) => {
   return (
