@@ -10,7 +10,7 @@ const Join = () => {
         <h3 className="BlueJoinHeadTexts">
           <span>Start</span> saving with BucksTrybe now.
         </h3>
-        <p className="headptext ">
+        <p className="headptexts ">
           Download the BucksTrybe app now and get started on your savings
           journey.
         </p>

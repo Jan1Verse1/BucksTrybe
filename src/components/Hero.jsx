@@ -54,7 +54,7 @@ const Hero = () => {
         <h3 className="HeadTexts headtext">
           <span>Revolutionized</span> communal <br /> savings and contributions.
         </h3>
-        <p className="headptext headp">
+        <p className="headptexts headp">
           BucksTrybe, is a neutral saving platform that makes control and
           accountability a shared privilege among everyone. Saving the
           BucksTrybe way is the safe way.
