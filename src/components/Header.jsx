@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Header.css";
-import Logo from "../assets/Images/logo.png";
+import Logo from "../assets/images/logo.png";
 import OfferingModal from "../contents/offeringModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";

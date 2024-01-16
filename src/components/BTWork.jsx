@@ -8,7 +8,7 @@ import {
   faBuildingColumns,
   faBell,
 } from "@fortawesome/free-solid-svg-icons";
-import WorkImg from "../assets/Images/BT Works.png";
+import WorkImg from "../assets/images/BT Works.png";
 import "./BTWork.css";
 
 const BTWorks = () => {

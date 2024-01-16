@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Img1 from "../assets/Images/iPhone-1.png";
-import Img2 from "../assets/Images/iPhone-2.png";
-import Img3 from "../assets/Images/iPhone-3.png";
-import Img4 from "../assets/Images/iPhone-4.png";
+import Img1 from "../assets/images/iPhone-1.png";
+import Img2 from "../assets/images/iPhone-2.png";
+import Img3 from "../assets/images/iPhone-3.png";
+import Img4 from "../assets/images/iPhone-4.png";
 import FeatureC from "../components/FeatureCard";
 import "./Features.css";
 

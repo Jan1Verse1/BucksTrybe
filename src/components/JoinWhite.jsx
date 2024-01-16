@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import AppStore from "../assets/Images/App Store.png";
-import PlayStore from "../assets/Images/Play Store.png";
+import AppStore from "../assets/images/App Store.png";
+import PlayStore from "../assets/images/Play Store.png";
 import "./JoinWhite.css";
 
 const JoinWhite = () => {

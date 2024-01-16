@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
-import AppStore from "../assets/Images/App Store.png";
-import PlayStore from "../assets/Images/Play Store.png";
-import Phone1 from "../assets/Images/Hero Phone1.png";
-import Phone2 from "../assets/Images/Hero Phone2.png";
+import AppStore from "../assets/images/App Store.png";
+import PlayStore from "../assets/images/Play Store.png";
+import Phone1 from "../assets/mages/Hero Phone1.png";
+import Phone2 from "../assets/images/Hero Phone2.png";
 import "./Hero.css";
 
 const Hero = () => {
