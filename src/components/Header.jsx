@@ -1,7 +1,7 @@
 // Header.js
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "./header.css";
+import "./Header.css";
 import Logo from "../assets/Images/logo.png";
 import OfferingModal from "../contents/offeringModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
