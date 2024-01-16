@@ -7,16 +7,16 @@ import Footer from "../components/TheFooter";
 const Home = () => {
   const ServiceCards = [
     {
-      header: "Customize your ajoo plan.",
-      copi: "You are in the driver’s seat and have control of the configuration of your group. Set the term, number of slots, set savings amount, and group description as it best defines your savings plan.",
+      header: "Customize your communal plan.",
+      copi: "You are in the driver’s seat and have control of the configuration of your group. Appoint initiators and approvers, set saving targets, and group description as it best defines your savings plan.",
     },
     {
       header: "Build your community",
-      copi: "For ajoo savings, you have to get your slots completed before the scheduled start date. You can send prospective members an invite code to join your ajo plan.",
+      copi: "Not a fan of manually adding people to your group? Don’t worry. You can send them an invite code to join your communal plan.",
     },
     {
-      header: "Contributions & Pay-out with ease",
-      copi: "Making your contributions to your ajo group is seamless through the many options we have. Payout is also set to happen on schedule when members make their contributions.",
+      header: "Make your contributions with ease",
+      copi: "Choose your preferred contribution option. A few clicks are all it takes, either through the app or the web, to make your contributions. ",
     },
     {
       header: "Stay in the know at all times.",
@@ -29,22 +29,23 @@ const Home = () => {
       <Header />
       <div className="contactHead">
         <h3 className="contactHeadText">
-          <span>Ajo </span> Savings on BucksTrybe
+          <span>Communal </span> Savings on BucksTrybe
         </h3>
         <p className="contactHeadP">
-          Here is all there is to know about our Ajo Savings.
+          Here is all there is to know about our Communal Savings.
         </p>
       </div>
 
       <div className="theService">
         <div>
-          <h5 className="serviceName">Ajoo Savings</h5>
+          <h5 className="serviceName">Communal Savings</h5>
           <p className="serviceTalks">
-            The ajoo savings is BucksTrybe’s digitisation of the traditional
-            term savings where slots are made available to members of the group
-            and payouts are scheduled according to these slots. Here, you can
-            create or be part of a savings group where members of the group get
-            paid the value of the total contribution for that term.
+            BucksTrybe offers the communal savings service to users who are
+            interested in saving as a group. The demographics of users
+            interested in this include but not limited to corporative societies,
+            student bodies, associations etc. With communal savings, you can
+            save towards a goal with your community with assured accountability
+            and transparency.
           </p>
         </div>
 
