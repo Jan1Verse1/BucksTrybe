@@ -1,4 +1,4 @@
-.hero {
+.calhero {
     display: flex;
     flex-direction: column;
     width: 90vw !important;
@@ -15,7 +15,7 @@
 
 }
 
-.herotexts {
+.calherotexts {
     max-width: 40vw;
     display: flex;
     flex-direction: column;
@@ -25,17 +25,18 @@
     z-index: 2; */
 }
 
-.HeadTexts {
-    font-size: 32px;
+.calHeadTexts {
+    font-size: 48px;
     line-height: 56px;
     letter-spacing: -.03em;
     font-weight: bold;
     font-family: 'Ubuntu Mono', monospace;
     color: #fff;
+    margin-bottom: 24px;
 }
 
-.HeadTexts span {
-    font-size: 32px;
+.calHeadTexts span {
+    font-size: 48px;
     line-height: 56px;
     letter-spacing: -.03em;
     font-weight: bold;
@@ -43,42 +44,19 @@
     color: #C18C0A;
 }
 
-.headptexts {
-    font-size: 20px;
+.calheadptexts {
+    font-size: 32px;
     font-weight: 400;
     font-family: 'DM Sans', sans-serif;
     color: #fff;
     margin-top: 1em;
 }
 
-.Phone1 {
-    width: 302px;
-    height: 554px;
+.cal {
+    width: 440px;
+    height: 480px;
     position: absolute;
     top: 40px;
     z-index: 20;
     left: 64vw;
-}
-
-.Phone2 {
-    width: 302px;
-    height: 554px;
-    position: absolute;
-    top: 12vw;
-    z-index: 10;
-    left: 76vw;
-
-}
-
-.appbuttons {
-    display: flex;
-    flex-direction: row;
-    margin-top: 1em;
-}
-
-
-.downbtnn {
-    width: 10rem;
-    height: 3rem;
-    margin-right: 2vw;
 }

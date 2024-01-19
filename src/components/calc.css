@@ -1,0 +1,104 @@
+.theCalculator {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 88px;
+    margin-top: 64px;
+    /* border: 2px solid red; */
+    align-items: center;
+    padding: 40px 120px 40px 120px;
+    margin: 40px;
+}
+
+.calform {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    /* border: 2px solid red; */
+}
+
+.calOutput {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9DEF8;
+    height: -webkit-fill-available;
+    padding: 40px
+}
+
+.outputHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outputHead h4 {
+    font-size: 2em;
+    letter-spacing: -.03em;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #333;
+    margin: 8px;
+}
+
+.outputHead p {
+    font-size: 1.2em;
+    letter-spacing: -.03em;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+    margin-top: 0px;
+}
+
+.outputdetails {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.submitBtn {
+    grid-column: span 2;
+    /* Span two columns */
+    padding: 10px;
+    background-color: #162A87;
+    color: #fff;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: -webkit-fill-available;
+}
+
+.submitBtn:hover {
+    background-color: #0056b3;
+}
+
+.taglinee {
+    display: flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.deetails {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-items: center;
+}
+
+.deetails h4 {
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+    width: 10vw;
+}
+
+.deetails h3 {
+    font-size: 1.8em;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+    margin: 0px 0px 0px 40px;
+}
