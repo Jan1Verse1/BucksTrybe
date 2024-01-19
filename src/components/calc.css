@@ -71,6 +71,23 @@
     background-color: #0056b3;
 }
 
+.resetBtn {
+
+    padding: 10px;
+    border: 2px solid red;
+    color: red;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: -webkit-fill-available;
+}
+
+.resetBtn:hover {
+    background-color: red;
+    color: #fff;
+}
+
 .taglinee {
     display: flex;
     align-items: center;
@@ -101,4 +118,10 @@
     font-family: 'DM Sans', sans-serif;
     color: #333;
     margin: 0px 0px 0px 40px;
+}
+
+.bttons {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-gap: 24px;
 }

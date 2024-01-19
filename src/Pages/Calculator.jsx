@@ -11,7 +11,6 @@ const Calculator = () => {
       <HeroCal />
 
       <div className="claculate">
-        This is the calculator!
         <div className="contactHead">
           <h3 className="contactHeadText">
             Our <span>Calculator</span>

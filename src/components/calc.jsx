@@ -55,6 +55,17 @@ const Calc = () => {
     calculateResults(data);
   };
 
+  const handleReset = () => {
+    // Reset the form using react-hook-form reset function
+    reset();
+
+    // Clear the result values in the UI
+    document.getElementById("totalAmount").innerText = "";
+    document.getElementById("totalInterest").innerText = "";
+    document.getElementById("monthlyInstallment").innerText = "";
+    document.getElementById("totalPayments").innerText = "";
+  };
+
   return (
     <div className="theCalculator">
       <div className="calInfo">
@@ -81,6 +92,7 @@ const Calc = () => {
             <br />
             <input
               type="number"
+              step="any"
               className="inputtext"
               placeholder="Enter Interest Rate"
               {...register("interestrate", {
@@ -111,9 +123,14 @@ const Calc = () => {
             )}
           </div>
 
-          <button type="submit" className="submitBtn">
-            Submit
-          </button>
+          <div className="bttons">
+            <button type="submit" className="submitBtn">
+              Submit
+            </button>
+            <button type="button" className="resetBtn" onClick={handleReset}>
+              reset
+            </button>
+          </div>
         </form>
       </div>
       <div className="calOutput">
