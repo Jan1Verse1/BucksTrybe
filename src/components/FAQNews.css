@@ -144,3 +144,100 @@
     cursor: pointer;
     border-radius: 12px;
 }
+
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .News {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+        padding: 24px;
+        /* border: 2px solid red; */
+    }
+
+    .accordionitem {
+        /* display: flex;
+        flex-direction: column;
+        border: 2px solid red;
+        color: #333; */
+        width: 80vw;
+        /* padding-top: 12px;
+        margin-bottom: 12px;
+        border-top: 1px solid #333; */
+    }
+
+    .accordiontitle {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        /* border: 2px solid red; */
+        color: #333;
+        font-size: 1.3em;
+        font-weight: bold;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        align-items: center;
+    }
+
+    .accordioncontent {
+        display: flex;
+        flex-direction: row;
+        color: #333;
+        width: 80vw;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.6;
+        /* border: 1px solid red; */
+        /* border-radius: 10px; */
+    }
+
+    .MoreFAQS {
+        width: 80vw;
+    }
+
+    .newstextHeader {
+        /* color: #333; */
+        font-size: 1.5em;
+        /* font-weight: bold;
+        margin: 0; */
+    }
+
+    .newstextP {
+        /* color: #333;
+        font-size: 1em;
+        line-height: 1.6; */
+        text-align: center;
+    }
+
+    .newsletter {
+        /* display: flex;
+        flex-direction: column;
+        border: 2px solid red; 
+        padding: 12px; */
+        align-items: flex-start;
+    }
+
+    .newsinputtext {
+        width: 40vw;
+        height: 48px;
+        background-color: #e0e0e0;
+        border: 1px solid #3333;
+        color: #333;
+        font-size: 1em;
+        padding: 8px 8px 8px 8px;
+        margin-right: 12px;
+        border-radius: 12px;
+    }
+
+    .saveBtn {
+        width: 20vw;
+        height: auto;
+        padding: 7px 25px;
+        background-color: #162A87;
+        border: none;
+        font-size: 1em;
+        font: inherit;
+        color: rgba(255, 255, 255, 1);
+        border-radius: 12px;
+    }
+}

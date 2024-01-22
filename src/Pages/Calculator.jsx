@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import HeroCal from "../components/HeroCal";
 import Calc from "../components/calc";
+import JoinWhite from "../components/JoinWhite";
 import Footer from "../components/TheFooter";
 
 const Calculator = () => {
@@ -20,6 +21,7 @@ const Calculator = () => {
           </p>
         </div>
         <Calc />
+        <JoinWhite />
       </div>
 
       <Footer />

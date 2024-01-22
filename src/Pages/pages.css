@@ -144,7 +144,7 @@
 
 
 /* CSS for styling the textarea and character counter */
-.textarea-container {
+/* .textarea-container {
     position: relative;
 }
 
@@ -154,10 +154,10 @@
     border-radius: 5px;
     resize: vertical;
     /* Allow vertical resizing */
-    min-height: 100px;
-    /* Set a minimum height for the textarea */
-    /* Add any other textarea styles as needed */
-}
+/* min-height: 100px; */
+/* Set a minimum height for the textarea */
+/* Add any other textarea styles as needed */
+
 
 /* .character-counter {
     position: absolute;
@@ -316,4 +316,55 @@
     display: flex;
     flex-direction: column;
     margin-top: 40px;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+
+    .firstItems,
+    .secondItems {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* column-gap: 10px; */
+        row-gap: 20px;
+        width: 80vw;
+        align-self: center;
+        margin-bottom: 40px;
+        /* border: 2px solid red; */
+    }
+
+    .linknn {
+        /* display: flex;
+        flex-direction: row;
+        cursor: pointer;
+        align-items: center;
+        align-self: center;
+        color: #162A87;
+        padding-top: 12px;
+        transition: transform 0.3s ease-in-out; */
+        margin: 20px;
+    }
+
+    .contactHead {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        padding: 12px;
+        margin-bottom: 40px;
+        /* border: 2px solid red; */
+    }
+
+    .contactHeadP {
+        text-align: center;
+    }
+
+    .contactHeadText span {
+        color: #F2B00D;
+    }
+
+    .contactHeadText {
+        font-size: 2em;
+
+
+    }
 }

@@ -30,7 +30,7 @@ const Footer = () => {
             <p>+234 806 731 8885</p>
           </div>
           <div className="contactt">
-            <p>contact@buckstrybe</p>
+            <p>follw buckstrybe</p>
             <div className="socialmedia">
               <FontAwesomeIcon icon={faFacebookF} className="socialmediaicon" />
               <FontAwesomeIcon icon={faInstagram} className="socialmediaicon" />

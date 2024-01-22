@@ -1,11 +1,11 @@
 // Header.js
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Header.css";
 import Logo from "../assets/images/logo.png";
 import OfferingModal from "../contents/offeringModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const Header = (props) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,21 +23,23 @@ const Header = (props) => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const navigate = useNavigate();
-
-  const navigateHandler = () => {
-    navigate("/");
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
 
   return (
     <header className="header">
-      <div className="logo">
-        <img src={Logo} alt="BucksTrybe logo" onClick={navigateHandler} />
+      <div className="logo" onClick={closeMenu}>
+        <Link to="/">
+          <img src={Logo} alt="BucksTrybe logo" />
+        </Link>
       </div>
       <div className={`menu ${isMenuOpen ? "open" : ""}`}>
         <ul className="nav">
           <li>
-            <Link to="/about">About Us</Link>
+            <Link to="/about" onClick={closeMenu}>
+              About Us
+            </Link>
           </li>
           <li
             onMouseOver={openOfferingModal}
@@ -50,31 +52,39 @@ const Header = (props) => {
             )}
           </li>
           <li>
-            <Link to="/calculator">Our Calculator</Link>
+            <Link to="/calculator" onClick={closeMenu}>
+              Our Calculator
+            </Link>
           </li>
           <li>
-            <Link to="/faqs">FAQs</Link>
+            <Link to="/faqs" onClick={closeMenu}>
+              FAQs
+            </Link>
           </li>
           <li>
-            <Link to="/contactus">Contact Us</Link>
+            <Link to="/contactus" onClick={closeMenu}>
+              Contact Us
+            </Link>
           </li>
           <li>
-            <Link to="/">Blog</Link>
+            <Link to="/" onClick={closeMenu}>
+              Blog
+            </Link>
           </li>
         </ul>
         <button className="thebtn">Get the App</button>
       </div>
-      {/* <div className="hamburger" onClick={toggleMenu}>
+      <div className="hamburger" onClick={toggleMenu}>
         {isMenuOpen ? (
           <span>
-            <FontAwesomeIcon icon={faXmark} />
+            <FontAwesomeIcon icon={faTimes} />
           </span>
         ) : (
           <span>
             <FontAwesomeIcon icon={faBars} />
           </span>
         )}
-      </div> */}
+      </div>
     </header>
   );
 };

@@ -80,11 +80,67 @@ a {
   cursor: pointer;
 }
 
-
+/* 
 @media (max-width: 768px) {
   .menu {
     display: block;
     max-height: max-content;
     padding: 12px;
+  }
+} */
+
+/* Header.css */
+@media (min-width: 360px) and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menu.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+
+    left: 0;
+    width: 100%;
+    background-color: #a0a9d0;
+    z-index: 10;
+  }
+
+  .menu.open ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+  }
+
+  .menu.open ul li {
+    margin: 10px;
+    color: #fff;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .thebtn {
+    width: 160px;
+    height: 48px;
+    padding: 7px 25px;
+    background-color: #162A87;
+    border: none;
+    font-size: 14px;
+    font: inherit;
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.7rem;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 40px 40px 40px 40px;
   }
 }

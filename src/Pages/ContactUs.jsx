@@ -154,33 +154,35 @@ const Contact = () => {
               )}
             </div>
           </div>
-
-          <div className="input">
-            <label htmlFor="message">Message:</label>
-            <br />
-            <textarea
-              className="inputtext message"
-              placeholder="Type your message here"
-              {...register("message", {
-                required: "Message is required.",
-                minLength: {
-                  value: 1,
-                  message: "Message must be at least 1 character long.",
-                },
-                maxLength: {
-                  value: maxLength,
-                  message: `Message must be ${maxLength} characters or less.`,
-                },
-              })}
-              onChange={onMessageChange}
-            />
-            <p className="errorMsg" role="alert">
-              {errors.message && errors.message.message}
-            </p>
-            {/* <div className="character-counter">
+          <div className="secondItems">
+            <div className="input">
+              <label htmlFor="message">Message:</label>
+              <br />
+              <textarea
+                className="inputtext message"
+                placeholder="Type your message here"
+                {...register("message", {
+                  required: "Message is required.",
+                  minLength: {
+                    value: 1,
+                    message: "Message must be at least 1 character long.",
+                  },
+                  maxLength: {
+                    value: maxLength,
+                    message: `Message must be ${maxLength} characters or less.`,
+                  },
+                })}
+                onChange={onMessageChange}
+              />
+              <p className="errorMsg" role="alert">
+                {errors.message && errors.message.message}
+              </p>
+              {/* <div className="character-counter">
               {messageLength}/{maxLength}
             </div> */}
+            </div>
           </div>
+
           <button type="submit" className="submitBtn">
             Submit
           </button>

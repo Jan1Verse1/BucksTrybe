@@ -161,3 +161,66 @@
         /* Move the image 100% down (out of view) */
     }
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .theFeatures {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        background-color: #D9DEF8;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .FeaturesHeader {
+        font-size: 2.2em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: bold;
+        font-family: 'Ubuntu Mono', monospace;
+        color: #162A87;
+        margin-bottom: 4px;
+        text-align: center;
+    }
+
+    .FeaturesHeadP {
+        font-size: 1.5em;
+        line-height: auto;
+        /* letter-spacing: -.03em; */
+        font-weight: 400;
+        font-family: 'DM Sans', sans-serif;
+        color: #333;
+        /* margin-bottom: 4px; */
+        text-align: center;
+    }
+
+    .Featurescard {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 60px;
+        margin-top: 32px;
+    }
+
+    .FeatureC {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 360px;
+        background-color: #162A87;
+        position: relative;
+        padding: 24px;
+        overflow: hidden;
+        align-items: center;
+        border-radius: 24px;
+    }
+
+    .FeatIMG {
+        width: 240px;
+        height: 560px;
+        position: absolute;
+        top: 140px;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+}

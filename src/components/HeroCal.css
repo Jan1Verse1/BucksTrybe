@@ -1,8 +1,8 @@
 .calhero {
     display: flex;
     flex-direction: column;
-    width: 90vw !important;
-    height: 560px !important;
+    width: 90vw;
+    height: 560px;
     background-color: #162A87;
     /* border: 2px solid red; */
     align-self: center;
@@ -11,8 +11,6 @@
     margin: 40px;
     margin-bottom: 120px;
     padding: 20px;
-    position: relative;
-
 }
 
 .calherotexts {
@@ -59,4 +57,52 @@
     top: 40px;
     z-index: 20;
     left: 64vw;
+}
+
+/* Media query for screens with a width between 360px and 768px (inclusive) */
+@media (min-width: 360px) and (max-width: 768px) {
+    .calhero {
+        width: 80vw;
+        height: auto !important;
+        margin: 40px;
+        margin-bottom: 80px;
+    }
+
+    /* .calhero {
+        display: flex;
+        flex-direction: column;
+        width: 90vw !important;
+        height: 560px !important;
+        background-color: #162A87;
+        align-self: center;
+        overflow: hidden;
+        border-radius: 20px;
+        margin: 40px;
+        margin-bottom: 120px;
+        padding: 20px;
+        position: relative;
+
+    } */
+
+    .calherotexts {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .calHeadTexts,
+    .calHeadTexts span,
+    .calheadptexts {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 12px;
+    }
+
+    .cal {
+        width: 100%;
+        height: auto;
+        position: static;
+        top: auto;
+        left: auto;
+    }
 }

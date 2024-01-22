@@ -127,3 +127,96 @@
 .group {
     transform: rotate(45deg);
 }
+
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .BTWorkCon {
+        display: flex;
+        flex-direction: column;
+        width: 90vw !important;
+        /* border: 2px solid red; */
+        align-self: center;
+        align-items: center;
+        overflow: hidden;
+        margin: 20px;
+        padding: 8px;
+        margin-top: 40px;
+    }
+
+
+
+
+    .BTWorktexts {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin-right: 0vw;
+    }
+
+    .BTWorkConBtext {
+        font-size: 2em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: bold;
+        font-family: 'Ubuntu Mono', monospace;
+        color: #333;
+        margin-bottom: 4px;
+        text-align: center;
+    }
+
+    .BTWorkConBtext span {
+        font-size: 1em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: bold;
+        font-family: 'Ubuntu Mono', monospace;
+        color: #F2B00D;
+    }
+
+    .BTWorkptext {
+        font-size: 1.2em;
+        line-height: 1.4em;
+        font-weight: 400;
+        font-family: 'DM Sans', sans-serif;
+        color: #333;
+        margin-bottom: 4vh;
+        text-align: center;
+    }
+
+    .BTWorkIMG {
+        display: none;
+        /* width: 30vw;
+        height: 50vh;
+        margin-top: 1em; */
+    }
+
+    .BTWork {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 12px;
+        width: 100vw;
+    }
+
+    .BTWorkCard {
+        display: flex;
+        flex-direction: column;
+        width: 36vw;
+        height: max-content;
+        padding: 2vw;
+        margin: 2vw;
+        border-radius: 20px;
+        background-color: #f6f8ff;
+        color: #fff;
+        /* border: 2px solid red; */
+    }
+
+    .header {
+        font-size: 1.5em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: bold;
+        font-family: 'Ubuntu Mono', monospace;
+        color: #F2B00D;
+        margin-bottom: 4px;
+    }
+}

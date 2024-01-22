@@ -40,7 +40,7 @@
 .Testimonialscard {
     display: flex;
     flex-direction: row;
-    gap: 120px;
+    gap: 80px;
     margin-top: 64px;
     overflow: hidden;
 }
@@ -133,4 +133,99 @@
     display: inline-block;
     margin-right: 20px;
     /* Adjust the margin as needed to control spacing between cards */
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+
+    .TestimonialsHeader {
+        font-size: 2em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: bold;
+        font-family: 'Ubuntu Mono', monospace;
+        color: #333;
+        margin-bottom: 4px;
+        text-align: center;
+    }
+
+    .TestimonialsHeader span {
+        color: #F2B00D;
+    }
+
+    .TestimonialsHeadP {
+        font-size: 1.3em;
+        line-height: auto;
+        /* letter-spacing: -.03em; */
+        font-weight: 400;
+        font-family: 'DM Sans', sans-serif;
+        color: #333;
+        /* margin-bottom: 4px; */
+        text-align: center;
+    }
+
+    .testimonialC {
+        display: flex;
+        flex-direction: column;
+        background-color: #E6EAFF;
+        position: relative;
+        padding: 16px;
+        border-radius: 16px;
+        width: 240px;
+        height: 240px;
+    }
+
+    .FeatureCardText {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Testimonial {
+        font-size: 1em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: 400;
+        font-family: 'DM Sans', sans-serif;
+        color: #333;
+        margin-bottom: 4px;
+        /* margin-top: 80px; */
+        text-align: center;
+    }
+
+    .Customer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .CustomerName {
+        font-size: 1em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: 600;
+        font-family: 'DM Sans', sans-serif;
+        color: #F2B00D;
+        margin-bottom: 2px;
+    }
+
+    .CustomerLocation {
+        font-size: 0.8em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: 400;
+        font-family: 'DM Sans', sans-serif;
+        color: #333;
+        margin-bottom: 2px;
+        margin-top: 0;
+    }
+
+    .Quote {
+        width: 32px;
+        height: 32px;
+        /* position: absolute;
+        top: 20px;
+        left: 32px; */
+        color: #F2B00D;
+    }
+
 }

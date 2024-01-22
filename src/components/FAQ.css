@@ -158,3 +158,66 @@
     color: #333;
     margin-bottom: 4px;
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        /* padding: 20px; */
+        align-items: center;
+        margin: 16px;
+    }
+
+    .headText {
+        text-align: center;
+    }
+
+    .headP {
+        text-align: center;
+    }
+
+    .FullAccordion {
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        width: 80vw;
+        align-self: center;
+        /* justify-self: center; */
+        padding: 20px;
+        /* margin: 40px auto; */
+    }
+
+    .fullAccordionitem {
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        width: 80vw;
+        color: #333;
+        padding-top: 12px;
+        margin: 8px;
+        border-top: 1px solid #333
+    }
+
+    .fullAccordiontitle {
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid red; */
+        color: #333;
+        font-size: 1.3em;
+        font-weight: bold;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        align-items: center;
+    }
+
+    .fullAccordioncontent {
+        display: flex;
+        flex-direction: row;
+        color: #333;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.6;
+        /* border: 1px solid red; */
+        /* border-radius: 10px; */
+    }
+}
