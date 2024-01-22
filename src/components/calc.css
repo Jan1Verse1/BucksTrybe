@@ -46,6 +46,7 @@
     font-family: 'DM Sans', sans-serif;
     color: #333;
     margin-top: 0px;
+    text-align: center;
 }
 
 .outputdetails {
@@ -124,4 +125,32 @@
     display: flex;
     /* grid-template-columns: 1fr 1fr; */
     grid-gap: 24px;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .theCalculator {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 48px;
+        padding: 0px;
+        margin: 20px;
+    }
+
+    .deetails {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        /* align-items: center; */
+        justify-items: center;
+    }
+
+    .deetails h3 {
+        margin: 0px;
+    }
+
+    .deetails h4 {
+        width: auto;
+    }
+
 }
