@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
+import { Link } from "react-router-dom";
 import OfferingCards from "../components/OfferingCards";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
@@ -12,10 +13,12 @@ const Offerings = () => {
       content:
         "BucksTrybe offers the communal savings service to users who are interested in saving as a group. The demographics of users interested in this include but not limited to corporative societies, student bodies, associations etc.",
       tag: (
-        <p className="learn">
-          Learn More
-          <FontAwesomeIcon icon={faArrowRightLong} className="arrow" />
-        </p>
+        <Link to="/communal">
+          <p className="learn">
+            Learn More
+            <FontAwesomeIcon icon={faArrowRightLong} className="arrow" />
+          </p>
+        </Link>
       ),
     },
     {
@@ -23,10 +26,12 @@ const Offerings = () => {
       content:
         "Our Ajoo contribution is tailored to cater for groups that are into term savings with payouts to individual group member periodically. Users can create or be invited to join an Ajoo group, choose slots, contribute and get paid when due.",
       tag: (
-        <p className="learn">
-          Learn More
-          <FontAwesomeIcon icon={faArrowRightLong} className="arrow" />
-        </p>
+        <Link to="/ajoo">
+          <p className="learn">
+            Learn More
+            <FontAwesomeIcon icon={faArrowRightLong} className="arrow" />
+          </p>
+        </Link>
       ),
     },
   ];

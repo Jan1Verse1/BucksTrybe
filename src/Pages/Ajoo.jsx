@@ -37,7 +37,7 @@ const Home = () => {
       </div>
 
       <div className="theService">
-        <div>
+      <div className="textGroup">
           <h5 className="serviceName">Ajoo Savings</h5>
           <p className="serviceTalks">
             The ajoo savings is BucksTrybe’s digitisation of the traditional

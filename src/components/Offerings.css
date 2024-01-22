@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 90vw !important;
+    width: 90vw;
     /* border: 2px solid red; */
     align-self: center;
     align-items: center;
@@ -61,6 +61,7 @@
     margin: 40px;
     border-radius: 20px;
     color: #fff;
+    align-items: center;
 }
 
 .title {
@@ -79,6 +80,7 @@
     font-weight: 400;
     font-family: 'DM Sans', sans-serif;
     color: #fff;
+    text-align: center;
 }
 
 
@@ -127,8 +129,8 @@
     .container {
         display: flex;
         flex-direction: column;
-        width: 80vw !important;
-        border: 2px solid red;
+        width: 80vw;
+
         align-self: center;
         align-items: center;
         overflow: hidden;

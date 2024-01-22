@@ -37,7 +37,7 @@
     font-family: 'Ubuntu Mono', monospace;
     color: #333;
     margin-bottom: 4px;
-
+    text-align: center;
 }
 
 .formContainer {
@@ -170,7 +170,7 @@
 .mission {
     display: flex;
     flex-direction: column;
-    width: 80VW !important;
+    width: 80vw;
     height: auto !important;
     background-color: transparent;
     /* border: 2px solid red; */
@@ -212,7 +212,7 @@
 .story {
     display: flex;
     flex-direction: column;
-    width: 80VW !important;
+    width: 80vw;
     height: auto !important;
     background-color: #162A87;
     /* border: 2px solid red; */
@@ -240,7 +240,7 @@
 .team {
     display: flex;
     flex-direction: column;
-    width: 80VW !important;
+    width: 80vw;
     height: auto !important;
     background-color: transparent;
     /* border: 2px solid red; */
@@ -366,5 +366,109 @@
         font-size: 2em;
 
 
+    }
+
+    .members {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        align-self: center;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .team {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        height: auto !important;
+        background-color: transparent;
+        /* border: 2px solid red; */
+        align-items: center;
+        border-radius: 20px;
+        margin: -10px;
+        /* margin-bottom: 120px; */
+        padding: 40px;
+
+    }
+
+    .mission {
+        /* display: flex;
+        width: 80vw;
+        height: auto !important; */
+        /* background-color: transparent; */
+        /* border: 2px solid red; */
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        margin: 10px;
+        margin-bottom: 60px;
+        padding: 20px;
+    }
+
+    .missionP {
+        font-size: 1.3em;
+        font-weight: 400;
+        line-height: 32px;
+        font-family: 'DM Sans', sans-serif;
+        color: #333;
+        margin-top: 0.5em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .story {
+
+        /* background-color: transparent; */
+        /* border: 2px solid red; */
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        margin: 10px;
+        margin-bottom: 60px;
+        padding: 20px;
+
+    }
+
+    .storyP {
+        font-size: 1.3em;
+        font-weight: 400;
+        line-height: 32px;
+        font-family: 'DM Sans', sans-serif;
+        color: #fff;
+        margin-top: 0.5em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .textGroup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .serviceTalks {
+        text-align: center;
+    }
+
+    .featuresTalk {
+        margin-top: 0px;
+    }
+
+    .sFeaturescard {
+        /* border: solid 1px red; */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+        margin-top: 12px;
+    }
+
+    .serviceFeatureCard {
+        padding: 20px;
+        /* margin: 40px; */
+    }
+
+    .scopi {
+        text-align: center;
     }
 }

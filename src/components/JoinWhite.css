@@ -1,7 +1,7 @@
 .whiteJoin {
     display: flex;
     flex-direction: column;
-    width: 80VW !important;
+    width: 80vw;
     height: auto !important;
     /* background-color: #fff; */
     /* border: 2px solid red; */
@@ -59,4 +59,47 @@
     width: 10rem;
     height: 3rem;
     margin-right: 2vw;
+}
+
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .whiteJoin {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        height: auto !important;
+        /* border: 2px solid red; */
+        align-items: center;
+        border-radius: 20px;
+        margin: 10px;
+        margin-bottom: 40px;
+        padding: 24px;
+    }
+
+    .whiteJointexts {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 0px;
+        align-items: center;
+    }
+
+    .whiteJoinHeadTexts {
+        font-size: 1.8em;
+        font-weight: bold;
+        font-family: 'Ubuntu Mono', monospace;
+        color: #333;
+        text-align: center;
+        margin: 0px;
+    }
+
+
+    .headptext {
+        font-size: 1.3em;
+        font-weight: 400;
+        font-family: 'DM Sans', sans-serif;
+        color: #333;
+        margin-top: 1em;
+        text-align: center;
+    }
 }

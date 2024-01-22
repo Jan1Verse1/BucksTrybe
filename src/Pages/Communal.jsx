@@ -37,7 +37,7 @@ const Home = () => {
       </div>
 
       <div className="theService">
-        <div>
+        <div className="textGroup">
           <h5 className="serviceName">Communal Savings</h5>
           <p className="serviceTalks">
             BucksTrybe offers the communal savings service to users who are
