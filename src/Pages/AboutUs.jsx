@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 import Footer from "../components/TheFooter";
@@ -6,6 +6,9 @@ import { TeammembersInfo } from "../Accordion/TeammembersInfo";
 import Teammembers from "../components/Teammembers";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Header />

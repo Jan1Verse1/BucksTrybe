@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 import HeroCal from "../components/HeroCal";
 import Calc from "../components/calc";
@@ -6,6 +6,10 @@ import JoinWhite from "../components/JoinWhite";
 import Footer from "../components/TheFooter";
 
 const Calculator = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Header />

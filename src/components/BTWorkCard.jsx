@@ -6,7 +6,7 @@ const BTWorkC = ({ copy = "", header = "", Icon = "" }) => {
     <div className="BTWorkCard">
       <div className="Icon">{Icon}</div>
       <div className="'BTCardText">
-        <h3 className="header">{header}</h3>
+        <h3 className="headerText">{header}</h3>
         <p className="copy">{copy}</p>
       </div>
     </div>

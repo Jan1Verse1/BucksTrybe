@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import ScrollReveal from "scrollreveal";
 import AppStore from "../assets/images/App Store.png";
 import PlayStore from "../assets/images/Play Store.png";
@@ -52,7 +53,7 @@ const Hero = () => {
     <div className="hero">
       <div className="herotexts ">
         <h3 className="HeadTexts headtext">
-          <span>Revolutionized</span> communal <br /> savings and contributions.
+          <span>Revolutionized</span> communal savings and contributions.
         </h3>
         <p className="headptexts headp">
           BucksTrybe, is a neutral saving platform that makes control and
@@ -60,17 +61,24 @@ const Hero = () => {
           BucksTrybe way is the safe way.
         </p>
         <div className="appbuttons buttons">
-          <img className="downbtnn" src={AppStore} alt="App Store logo" />
-          <img
-            className="downbtnn"
-            src={PlayStore}
-            alt="Play Store logo"
-            // onClick={navigateHandler}
-          />
+          <Link
+            to="https://apps.apple.com/us/app/buckstrybe/id1669998282"
+            target="_blank"
+          >
+            <img className="downbtnn" src={AppStore} alt="App Store logo" />
+          </Link>
+          <Link
+            to="https://play.google.com/store/apps/details?id=com.chordtech.buckstrybe"
+            target="_blank"
+          >
+            <img className="downbtnn" src={PlayStore} alt="Play Store logo" />
+          </Link>
         </div>
       </div>
+
       <img className="Phone1 phone" src={Phone1} alt="App Store logo" />
       <img className="Phone2 lastphone" src={Phone2} alt="App Store logo" />
+
       <div></div>
     </div>
   );

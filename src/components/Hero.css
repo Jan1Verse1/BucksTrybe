@@ -1,7 +1,7 @@
 .hero {
     display: flex;
     flex-direction: column;
-    width: 90vw !important;
+    width: 90vw;
     height: 560px !important;
     background-color: #162A87;
     /* border: 2px solid red; */
@@ -26,7 +26,7 @@
 }
 
 .HeadTexts {
-    font-size: 32px;
+    font-size: 48px;
     line-height: 56px;
     letter-spacing: -.03em;
     font-weight: bold;
@@ -35,7 +35,7 @@
 }
 
 .HeadTexts span {
-    font-size: 32px;
+    font-size: 48px;
     line-height: 56px;
     letter-spacing: -.03em;
     font-weight: bold;
@@ -87,22 +87,21 @@
     .hero {
         display: flex;
         flex-direction: column;
-        width: 80vw !important;
+        width: 90vw;
         height: auto !important;
         background-color: #162A87;
         /* border: 2px solid red; */
         align-self: center;
         overflow: hidden;
         border-radius: 20px;
-        margin: 24px;
+        margin: 20px;
         margin-bottom: 64px;
         padding: 12px;
         position: relative;
-
     }
 
     .herotexts {
-        max-width: 80vw;
+        max-width: 90vw;
         display: flex;
         flex-direction: column;
         margin: 20px;
@@ -110,18 +109,18 @@
     }
 
     .HeadTexts {
-        font-size: 24px;
-        /* line-height: 56px; */
-        letter-spacing: -.03em;
+        font-size: 32px;
+        line-height: normal;
+        /* letter-spacing: -.03em; */
         font-weight: bold;
         font-family: 'Ubuntu Mono', monospace;
         color: #fff;
     }
 
     .HeadTexts span {
-        font-size: 24px;
-        /* line-height: 56px; */
-        letter-spacing: -.03em;
+        font-size: 32px;
+        line-height: normal;
+        /* letter-spacing: -.03em; */
         font-weight: bold;
         font-family: 'Ubuntu Mono', monospace;
         color: #C18C0A;

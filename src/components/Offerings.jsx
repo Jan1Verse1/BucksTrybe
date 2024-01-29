@@ -22,7 +22,7 @@ const Offerings = () => {
       ),
     },
     {
-      title: "Ajoo Savings",
+      title: "Ajoo Contributions",
       content:
         "Our Ajoo contribution is tailored to cater for groups that are into term savings with payouts to individual group member periodically. Users can create or be invited to join an Ajoo group, choose slots, contribute and get paid when due.",
       tag: (

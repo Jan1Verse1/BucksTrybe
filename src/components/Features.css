@@ -223,4 +223,26 @@
         transition: opacity 0.5s ease-in-out;
     }
 
+    .header {
+        font-size: 2em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: bold;
+        font-family: 'Ubuntu Mono', monospace;
+        color: #F2B00D;
+        margin-bottom: 4px;
+        text-align: center;
+    }
+
+    .copi {
+        font-size: 1.3em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: 400;
+        font-family: 'DM Sans', sans-serif;
+        color: #fff;
+        margin-bottom: 4px;
+        text-align: center;
+    }
+
 }

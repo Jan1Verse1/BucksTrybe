@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 import JoinWhite from "../components/JoinWhite";
 import ServiceFeatureCard from "../components/ServiceFeatures";
 import Footer from "../components/TheFooter";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const ServiceCards = [
     {
       header: "Customize your ajoo plan.",
@@ -37,7 +41,7 @@ const Home = () => {
       </div>
 
       <div className="theService">
-      <div className="textGroup">
+        <div className="textGroup">
           <h5 className="serviceName">Ajoo Savings</h5>
           <p className="serviceTalks">
             The ajoo savings is BucksTrybe’s digitisation of the traditional

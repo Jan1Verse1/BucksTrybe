@@ -203,7 +203,7 @@
         flex-direction: row;
         /* border: 2px solid red; */
         color: #333;
-        font-size: 1.3em;
+        font-size: 1em;
         font-weight: bold;
         justify-content: space-between;
         margin-bottom: 12px;
@@ -219,5 +219,9 @@
         line-height: 1.6;
         /* border: 1px solid red; */
         /* border-radius: 10px; */
+    }
+
+    .LinkContact {
+        font-size: 1em;
     }
 }

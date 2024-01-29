@@ -54,7 +54,7 @@
     width: 440px;
     height: 480px;
     position: absolute;
-    top: 40px;
+    top: 240px;
     z-index: 20;
     left: 64vw;
 }
@@ -62,9 +62,9 @@
 /* Media query for screens with a width between 360px and 768px (inclusive) */
 @media (min-width: 360px) and (max-width: 768px) {
     .calhero {
-        width: 80vw;
+        width: 90vw;
         height: auto !important;
-        margin: 10px;
+        margin: 20px;
         /* margin-bottom: 80px; */
     }
 
@@ -86,8 +86,9 @@
 
     .calherotexts {
         max-width: 100%;
-        margin-left: 20px;
-        margin-top: 20px;
+        margin-left: 0px;
+        margin-top: 0px;
+
     }
 
     .calHeadTexts,
@@ -96,6 +97,7 @@
         font-size: 24px;
         line-height: 32px;
         margin-bottom: 12px;
+        text-align: center;
     }
 
     .cal {

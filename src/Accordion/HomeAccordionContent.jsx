@@ -4,16 +4,16 @@ export const HomeAccordionData = [
   {
     Question: "What is BucksTrybe?",
     Answer:
-      "It is a savings platform that is focused on making group savings seamless for unregistered associations across various walks and phases of life",
+      "BucksTrybe is a Neutral and Safe savings platform that provides groups with Transparency and Accountability.",
   },
   {
-    Question: "Can I reverse a contribution made to a group?",
+    Question: "Who can use BucksTrybe?",
     Answer:
-      "No. This can however be done by the Group Admin after the group account has been funded",
+      "Individuals who want to save towards a goal or existing groups and cooperatives. These could be Alumni, Family, Friends, etc.",
   },
   {
-    Question: "What steps are there to resolve issues of fraud?",
+    Question: "How safe is BucksTrybe?",
     Answer:
-      "The group’s account will be placed on Post No Debit (PND) till the issue is resolved",
+      "BucksTrybe is very safe. We adhere to every financial standard and rule to ensure your operations are not compromised. ",
   },
 ];

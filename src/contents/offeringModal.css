@@ -1,4 +1,4 @@
-.offering {
+/* .offering {
   display: flex;
   flex-direction: column;
   height: 240px;
@@ -56,4 +56,74 @@
 
 .menu li.offerings-item:hover .offering-modal {
   display: block;
+} */
+
+/* 
+.OfferingModal {
+  display: block;
+  flex-direction: column;
+  width: 20vw;
+  position: absolute;
+  top: 0vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  background-color: #DFC9F0;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  border: 1px solid red;
+} */
+
+.modalContainer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  z-index: 99;
+  position: absolute;
+
+}
+
+.offering {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  background-color: #162A87;
+  color: #fff;
+  /* border: 1px solid red; */
+  justify-content: space-evenly;
+  z-index: 99;
+  padding: 24px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .modalContainer ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    list-style-type: none;
+    max-width: max-content;
+    gap: 24px;
+    z-index: 99;
+    padding: 24px;
+    position: absolute;
+    top: 35vh;
+    left: 22vw;
+    justify-items: center;
+  }
+
+  .offering {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    background-color: #162A87;
+    color: #fff;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    z-index: 99;
+    padding: 24px;
+    align-items: center;
+
+  }
 }

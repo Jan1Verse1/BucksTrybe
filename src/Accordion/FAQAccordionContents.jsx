@@ -4,46 +4,59 @@ export const FAQAccordionData = [
   {
     Question: "What is BucksTrybe?",
     Answer:
-      "It is a savings platform that is focused on making group savings seamless for unregistered associations across various walks and phases of life",
+      "BucksTrybe is a Neutral and Safe savings platform that provides groups with Transparency and Accountability.",
   },
   {
-    Question: "Can I reverse a contribution made to a group?",
+    Question: "Who can use BucksTrybe?",
     Answer:
-      "No. This can however be done by the Group Admin after the group account has been funded",
+      "Individuals who want to save towards a goal or existing groups and cooperatives. These could be Alumni, Family, Friends, etc.",
   },
   {
-    Question: "What steps are there to resolve issues of fraud?",
+    Question: "How safe is BucksTrybe?",
     Answer:
-      "The group’s account will be placed on Post No Debit (PND) till the issue is resolved",
+      "BucksTrybe is very safe. We adhere to every financial standard and rule to ensure your operations are not compromised. ",
   },
   {
-    Question: "What is BucksTrybe?",
+    Question: "Are my card details safe?",
     Answer:
-      "It is a savings platform that is focused on making group savings seamless for unregistered associations across various walks and phases of life",
+      "Your security is our priority, so we work with a PCIDSS – compliant payment processor, Paystack, to ensure the safety of your card details.",
   },
   {
-    Question: "Can I reverse a contribution made to a group?",
+    Question: "How secure is money contributed?",
     Answer:
-      "No. This can however be done by the Group Admin after the group account has been funded",
+      "Contributed money is saved in a Commercial bank in Nigeria where NDIC insures deposits. Also, we are a registered cooperative – Chord Technologies Multipurpose Society Limited (Registration Number, 18400).",
   },
   {
-    Question: "What steps are there to resolve issues of fraud?",
+    Question: "How much are the charges?",
     Answer:
-      "The group’s account will be placed on Post No Debit (PND) till the issue is resolved",
+      "Charges are NOT deducted on contributions except the ones by your bank or payment gateway. However, 1.3% with a cap of N2,000 is charged at withdrawal.",
   },
   {
-    Question: "What is BucksTrybe?",
-    Answer:
-      "It is a savings platform that is focused on making group savings seamless for unregistered associations across various walks and phases of life",
+    Question: "How do I make contributions?",
+    Answer: "With a Naira debit card, contributions can be made seamlessly.",
   },
   {
-    Question: "Can I reverse a contribution made to a group?",
+    Question: "How are withdrawals made from the savings plan?",
     Answer:
-      "No. This can however be done by the Group Admin after the group account has been funded",
+      "Withdrawal needs to be initiated and approved by agreed signatories to the account.",
   },
   {
-    Question: "What steps are there to resolve issues of fraud?",
+    Question: "How are signatories assigned to a savings plan?",
     Answer:
-      "The group’s account will be placed on Post No Debit (PND) till the issue is resolved",
+      "Group Admin or creator set up the mandate by assigning two members each as initiators and approvers and selecting the percentage of required votes to make the mandate stand. ",
+  },
+  {
+    Question: "Can the mandate be changed?",
+    Answer:
+      "Yes. The admin needs to set a new mandate, and members must vote to activate the mandate.",
+  },
+  {
+    Question: "How can I be part of a Communal Saving group?",
+    Answer:
+      "You can either create the saving group and be manually added to the group or get an invitation code to join the group.",
+  },
+  {
+    Question: "Can I be in more than one saving plan at a time?",
+    Answer: "Yes, you can.",
   },
 ];
