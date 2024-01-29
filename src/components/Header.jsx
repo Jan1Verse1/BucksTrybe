@@ -144,7 +144,7 @@ const Header = () => {
 
   return (
     <div>
-      <header className="flex flex-row justify-between align-middle px-4 p-12 rounded-md bg-white h-24 w-full ">
+      <header className="flex flex-row justify-between align-middle px-4 p-12 rounded-md bg-white h-24 w-full  fixed top-0 ">
         <div className="flex flex-row justify-between w-full">
           <div>
             <img
@@ -210,7 +210,7 @@ const Header = () => {
         <ul
           className={
             nav
-              ? "flex flex-col md:hidden absolute top-20  h-max w-full text-center text-black rounded-md bg-white z-20"
+              ? "flex flex-col md:hidden absolute top-20 p-4  h-max w-full text-center text-white rounded-md bg-blue-700 z-20"
               : "hidden"
           }
         >

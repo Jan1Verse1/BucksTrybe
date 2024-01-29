@@ -58,10 +58,10 @@ const OfferingModal = ({ open, onClose }) => {
         <div className="offeringsModal">
           <ul className="offering">
             <li>
-              <Link to="/communal">Communal Savings</Link>
+              <Link to="/ajoo">Ajoo Savings</Link>
             </li>
             <li>
-              <Link to="/ajoo">Ajoo Savings</Link>
+              <Link to="/communal">Communal Savings</Link>
             </li>
             <li>
               <Link to="/ajoo">Contribution Score</Link>

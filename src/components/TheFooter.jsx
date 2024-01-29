@@ -20,15 +20,23 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="main">
-        <div className="theLogo">
+        <div className="ogo">
           <img src={BWLogo} alt="BucksTrybe logo" />
         </div>
         <div className="links">
           <div className="men">
             <ul className="navlinks">
-              <li>About Us</li>
-              <li>FAQs</li>
-              <li>Blog</li>
+              <li>
+                <Link to="/about">About Us</Link>
+              </li>
+              <li>
+                <Link to="/faqs">FAQs</Link>
+              </li>
+              <li>
+                <Link to="https://buckstrybe.com/blog/" target="_blank">
+                  Blog
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="contactt">

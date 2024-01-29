@@ -1,8 +1,7 @@
 .theTestimonials {
     display: flex;
     flex-direction: column;
-    max-width: 90vw;
-    width: auto;
+    width: 90vw;
     align-items: center;
     padding: 60px;
 }
@@ -137,8 +136,16 @@
 
 @media (min-width: 360px) and (max-width: 768px) {
 
+    .theTestimonials {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        padding: 60px;
+    }
+
     .TestimonialsHeader {
-        font-size: 2em;
+        font-size: 1.3em;
         line-height: auto;
         letter-spacing: -.03em;
         font-weight: bold;
@@ -153,7 +160,7 @@
     }
 
     .TestimonialsHeadP {
-        font-size: 1.3em;
+        font-size: 1em;
         line-height: auto;
         /* letter-spacing: -.03em; */
         font-weight: 400;
@@ -170,7 +177,7 @@
         position: relative;
         padding: 16px;
         border-radius: 16px;
-        width: 240px;
+        width: 320px;
         height: 240px;
     }
 

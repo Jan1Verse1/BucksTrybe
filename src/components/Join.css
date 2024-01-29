@@ -65,13 +65,13 @@
     .BlueJoin {
         display: flex;
         flex-direction: column;
-        width: 80vw;
+        width: 90vw;
         height: auto !important;
         background-color: #162A87;
         /* border: 2px solid red; */
         align-items: center;
         border-radius: 20px;
-        margin: 10px;
+        margin: 20px;
         margin-bottom: 40px;
         padding: 24px;
     }

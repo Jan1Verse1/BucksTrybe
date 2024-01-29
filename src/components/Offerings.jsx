@@ -58,7 +58,7 @@ const Offerings = () => {
     });
   }, []);
   return (
-    <div className="container">
+    <div className="offeringCont">
       <div className="containertexts ">
         <h2 className="Bigtext">
           Our <span>Offerings</span> to you

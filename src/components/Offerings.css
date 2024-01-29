@@ -1,4 +1,4 @@
-.container {
+.offeringCont {
     display: flex;
     flex-direction: column;
     width: 90vw;
@@ -126,10 +126,10 @@
 
 
 @media (min-width: 360px) and (max-width: 768px) {
-    .container {
+    .offeringCont {
         display: flex;
         flex-direction: column;
-        width: 80vw;
+        width: 90vw;
 
         align-self: center;
         align-items: center;
@@ -167,7 +167,7 @@
     }
 
     .ptext {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 400;
         font-family: 'DM Sans', sans-serif;
         color: #333;
@@ -183,7 +183,7 @@
     .CardCon {
         display: flex;
         flex-direction: column;
-        width: 80vw;
+        width: 90vw;
         height: max-content;
         background-color: #162A87;
         padding: 20px;

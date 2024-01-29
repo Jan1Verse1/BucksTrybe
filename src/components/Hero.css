@@ -98,6 +98,7 @@
         margin-bottom: 64px;
         padding: 12px;
         position: relative;
+        margin-top: 120px;
     }
 
     .herotexts {
@@ -115,6 +116,7 @@
         font-weight: bold;
         font-family: 'Ubuntu Mono', monospace;
         color: #fff;
+        margin-bottom: 24px;
     }
 
     .HeadTexts span {
@@ -152,5 +154,20 @@
         top: 12vw;
         z-index: 10;
         left: 76vw; */
+    }
+
+    .appbuttons {
+        display: grid;
+        /* flex-direction: row; */
+        margin-top: 1em;
+        /* width: 80vw; */
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .downbtnn {
+        width: 8rem;
+        height: 3rem;
+        margin-right: 12px;
     }
 }

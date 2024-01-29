@@ -1,7 +1,7 @@
 .BTWorkCon {
     display: flex;
     flex-direction: row;
-    width: 90vw !important;
+    width: 90vw;
     /* border: 2px solid red; */
     align-self: center;
     align-items: center;
@@ -133,7 +133,7 @@
     .BTWorkCon {
         display: flex;
         flex-direction: column;
-        width: 90vw !important;
+        width: 90vw;
         /* border: 2px solid red; */
         align-self: center;
         align-items: center;

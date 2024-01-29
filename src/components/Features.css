@@ -166,7 +166,7 @@
     .theFeatures {
         display: flex;
         flex-direction: column;
-        width: 80vw;
+        width: 100vw;
         background-color: #D9DEF8;
         align-items: center;
         padding: 40px;
@@ -218,13 +218,13 @@
         width: 240px;
         height: 560px;
         position: absolute;
-        top: 140px;
+        top: 96px;
         opacity: 0;
         transition: opacity 0.5s ease-in-out;
     }
 
     .header {
-        font-size: 2em;
+        font-size: 1.3em;
         line-height: auto;
         letter-spacing: -.03em;
         font-weight: bold;
@@ -235,7 +235,7 @@
     }
 
     .copi {
-        font-size: 1.3em;
+        font-size: 1em;
         line-height: auto;
         letter-spacing: -.03em;
         font-weight: 400;
