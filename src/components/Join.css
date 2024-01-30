@@ -1,7 +1,7 @@
 .BlueJoin {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    /* width: 80vw; */
     height: auto !important;
     background-color: #162A87;
     /* border: 2px solid red; */

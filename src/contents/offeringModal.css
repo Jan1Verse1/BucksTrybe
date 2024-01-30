@@ -1,100 +1,26 @@
-/* .offering {
-  display: flex;
-  flex-direction: column;
-  height: 240px;
-  width: 120px;
-  border: 1px solid red;
-}
-
-.offering .li {
-  border-top: 1px solid #333;
-  font-size: 1.3em;
-  font-weight: 400;
-  line-height: 56px;
-  font-family: 'DM Sans', sans-serif;
-  color: #333;
-  text-align: center;
-  border: 1px solid green;
-  list-style: none;
-  height: 40px;
-
-}
-
-.offering .li :hover {
-  background-color: blue;
-  color: #333;
-
-}
-
-
-.offeringmodal {
-  display: none;
-  position: absolute;
-  top: calc(100% + 10px);
-  left: 0;
-  padding: 10px;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 999;
-  border: 1px solid red;
-}
-
-.menu li:hover .offering-modal {
-  display: block;
-}
-
-
-.menu li {
-  position: relative;
-  cursor: pointer;
-}
-
-.menu li.offerings-item {
-  height: 40px;
-}
-
-
-.menu li.offerings-item:hover .offering-modal {
-  display: block;
-} */
-
-/* 
-.OfferingModal {
-  display: block;
-  flex-direction: column;
-  width: 20vw;
-  position: absolute;
-  top: 0vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 40px;
-  background-color: #DFC9F0;
-  border-radius: 8px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-  border: 1px solid red;
-} */
-
 .modalContainer ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   list-style-type: none;
   z-index: 99;
-  position: absolute;
-
+  position: fixed;
+  top: 94px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .offering {
   display: flex;
   flex-direction: column;
-  height: 40px;
-  background-color: #162A87;
+  /* height: 40px; */
+  background-color: #6a74a4;
   color: #fff;
   /* border: 1px solid red; */
   justify-content: space-evenly;
   z-index: 99;
   padding: 24px;
+  width: 100vw;
 }
 
 @media screen and (min-width: 360px) and (max-width: 768px) {
@@ -103,21 +29,22 @@
     grid-template-columns: 1fr;
     align-items: center;
     list-style-type: none;
+    max-width: -moz-max-content;
     max-width: max-content;
     gap: 24px;
     z-index: 99;
     padding: 24px;
-    position: absolute;
-    top: 35vh;
-    left: 22vw;
+    position: fixed;
+    left: 50vw;
     justify-items: center;
+    top: 250px;
   }
 
   .offering {
     display: flex;
     flex-direction: column;
     height: max-content;
-    background-color: #162A87;
+    background-color: #6a74a4;
     color: #fff;
     /* border: 1px solid red; */
     justify-content: space-evenly;

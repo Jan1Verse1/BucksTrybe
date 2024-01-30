@@ -59,9 +59,10 @@ const HeroCal = () => {
           of any loans and financial commitments you would like to take.
         </p>
       </div>
-      <img className="cal phone" src={calc} alt="App Store logo" />
-      {/* <img className="Phone2 lastphone" src={Phone2} alt="App Store logo" /> */}
-      <div></div>
+
+      <div>
+        <img className="cal phone" src={calc} alt="App Store logo" />
+      </div>
     </div>
   );
 };

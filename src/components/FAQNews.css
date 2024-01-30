@@ -121,7 +121,7 @@
 
 .newsinputtext {
     width: 360px;
-    height: 48px;
+    height: 56px;
     background-color: #e0e0e0;
     border: 1px solid #3333;
     color: #333;
@@ -131,7 +131,7 @@
     border-radius: 12px;
 }
 
-.saveBtn {
+.submitBtn {
     width: 160px;
     height: auto;
     padding: 7px 25px;
@@ -139,7 +139,7 @@
     border: none;
     font-size: 14px;
     font: inherit;
-    color: rgba(255, 255, 255, 1);
+    color: #162A87;
     font-size: 1.3em;
     cursor: pointer;
     border-radius: 12px;
@@ -219,7 +219,7 @@
 
     .newsinputtext {
         width: 40vw;
-        height: 48px;
+        height: 56px;
         background-color: #e0e0e0;
         border: 1px solid #3333;
         color: #333;
@@ -229,7 +229,7 @@
         border-radius: 12px;
     }
 
-    .saveBtn {
+    .submitBtn {
         width: 20vw;
         height: auto;
         padding: 7px 25px;
@@ -237,7 +237,7 @@
         border: none;
         font-size: 1em;
         font: inherit;
-        color: rgba(255, 255, 255, 1);
+        color: #162A87;
         border-radius: 12px;
     }
 }

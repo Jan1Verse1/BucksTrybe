@@ -60,7 +60,7 @@
     /* Span two columns */
     padding: 10px;
     background-color: #162A87;
-    color: #fff;
+    color: #162A87;
     height: 56px;
     border: none;
     border-radius: 8px;
@@ -70,6 +70,7 @@
 
 .submitBtn:hover {
     background-color: #0056b3;
+    color: #fff;
 }
 
 .resetBtn {
@@ -103,6 +104,7 @@
     /* border: 1px solid red; */
     align-items: center;
     justify-items: center;
+    margin: 24px;
 }
 
 .deetails h4 {
@@ -143,6 +145,7 @@
         /* border: 1px solid red; */
         /* align-items: center; */
         justify-items: center;
+        margin-bottom: 12px;
     }
 
     .deetails h3 {

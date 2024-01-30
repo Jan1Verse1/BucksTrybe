@@ -71,7 +71,7 @@ const FAQNews = () => {
               )}
             </div>
 
-            <button className="saveBtn" type="submit">
+            <button className="submitBtn" type="submit">
               Sumbit
             </button>
           </form>

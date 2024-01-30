@@ -210,7 +210,7 @@ const Header = () => {
         <ul
           className={
             nav
-              ? "flex flex-col md:hidden absolute top-20 p-4  h-max w-full text-center text-white rounded-md bg-blue-700 z-20"
+              ? "flex flex-col md:hidden  fixed top-20 p-4  h-max w-full text-center text-white rounded-md bg-blue-700 z-20"
               : "hidden"
           }
         >

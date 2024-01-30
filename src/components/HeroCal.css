@@ -1,16 +1,19 @@
 .calhero {
     display: flex;
-    flex-direction: column;
-    width: 90vw;
+    flex-direction: row;
+    /* width: 90vw; */
     height: 560px;
     background-color: #162A87;
     /* border: 2px solid red; */
     align-self: center;
+    align-items: center;
     overflow: hidden;
     border-radius: 20px;
     margin: 40px;
     margin-bottom: 120px;
     padding: 20px;
+    margin-top: 120px;
+    justify-content: space-between;
 }
 
 .calherotexts {
@@ -53,15 +56,17 @@
 .cal {
     width: 440px;
     height: 480px;
-    position: absolute;
-    top: 240px;
-    z-index: 20;
+    /* position: absolute;
+    top: 240px; */
+    z-index: 10;
     left: 64vw;
 }
 
 /* Media query for screens with a width between 360px and 768px (inclusive) */
 @media (min-width: 360px) and (max-width: 768px) {
     .calhero {
+        display: flex;
+        flex-direction: column;
         width: 90vw;
         height: auto !important;
         margin: 20px;
@@ -104,8 +109,9 @@
     .cal {
         width: 100%;
         height: auto;
-        position: static;
-        top: auto;
-        left: auto;
+        /* position: static;
+        left: 64vw;
+        top: 240px; */
+        z-index: 10;
     }
 }

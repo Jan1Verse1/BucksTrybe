@@ -1,7 +1,7 @@
 .offeringCont {
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    /* width: 90vw; */
     /* border: 2px solid red; */
     align-self: center;
     align-items: center;

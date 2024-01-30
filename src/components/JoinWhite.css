@@ -1,7 +1,7 @@
 .whiteJoin {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    /* width: 80vw; */
     height: auto !important;
     /* background-color: #fff; */
     /* border: 2px solid red; */
