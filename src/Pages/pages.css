@@ -16,7 +16,29 @@
     margin-top: 120px;
 }
 
-.contactHeadP {
+.scoreHead {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin: 40px;
+    /* border: 2px solid red; */
+    /* margin-top: 120px; */
+    padding: 80px;
+}
+
+/* .scoreheadd {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    padding: 24px;
+    margin: 40px;
+    border: 2px solid red;
+} */
+
+.contactHeadP,
+.scoreHeadP {
     font-size: 1.3em;
     line-height: auto;
     letter-spacing: -.03em;
@@ -26,18 +48,32 @@
     margin-bottom: 4px;
 }
 
-.contactHeadText span {
+
+.scoreHeadP {
+    font-size: 1.3em;
+    line-height: auto;
+    letter-spacing: -.03em;
+    /* font-weight: bold; */
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.contactHeadText span,
+.scoreHeadText span {
     color: #F2B00D;
 }
 
-.contactHeadText {
+.contactHeadText,
+.scoreHeadText {
     font-size: 3em;
     line-height: auto;
     letter-spacing: -.03em;
     font-weight: bold;
     font-family: 'Ubuntu Mono', monospace;
     color: #333;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
     text-align: center;
 }
 
@@ -318,6 +354,49 @@
     margin-top: 40px;
 }
 
+.scoreDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    /* border: 1px solid red; */
+    padding: 40px;
+    background-color: #D9DEF8;
+}
+
+.scoreCard {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: -moz-max-content;
+    height: max-content;
+    background-color: #080F30;
+    padding: 40px;
+    /* margin: 40px; */
+    border-radius: 20px;
+    color: #fff;
+}
+
+.scoreCardT h3 {
+    font-size: 1.8em;
+    line-height: auto;
+    letter-spacing: -.03em;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #F2B00D;
+    margin-bottom: 4px;
+}
+
+.scoreCardT p {
+    font-size: 1.2em;
+    line-height: auto;
+    letter-spacing: -.03em;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
 @media (min-width: 360px) and (max-width: 768px) {
 
     .firstItems,
@@ -345,7 +424,8 @@
         width: 80vw;
     }
 
-    .contactHead {
+    .contactHead,
+    .scoreHead {
         display: flex;
         flex-direction: column;
         align-self: center;
@@ -354,6 +434,18 @@
         margin-bottom: 40px;
         /* border: 2px solid red; */
     }
+
+    /* .scoreHead {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        margin: 40px;
+        border: 2px solid red;
+        margin-top: 120px;
+        padding: 80px;
+    } */
+
 
     .contactHeadP {
         text-align: center;
@@ -367,6 +459,40 @@
         font-size: 2em;
 
 
+    }
+
+    .scoreDetails {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 40px;
+        /* row-gap: 40px; */
+        /* border: 1px
+    px
+     solid red; */
+        padding: 40px;
+        background-color: #D9DEF8;
+    }
+
+    .scoreCardT h3 {
+        font-size: 1.4em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: bold;
+        font-family: 'Ubuntu Mono', monospace;
+        color: #F2B00D;
+        margin-bottom: 4px;
+        text-align: center;
+    }
+
+    .scoreCardT p {
+        font-size: 1em;
+        line-height: auto;
+        letter-spacing: -.03em;
+        font-weight: 400;
+        font-family: 'DM Sans', sans-serif;
+        color: #fff;
+        margin-bottom: 4px;
+        text-align: center;
     }
 
     .members {

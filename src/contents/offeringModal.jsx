@@ -64,7 +64,7 @@ const OfferingModal = ({ open, onClose }) => {
               <Link to="/communal">Communal Savings</Link>
             </li>
             <li>
-              <Link to="/ajoo">Contribution Score</Link>
+              <Link to="/score">Contribution Score</Link>
             </li>
           </ul>
         </div>

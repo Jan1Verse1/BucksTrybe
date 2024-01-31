@@ -1,4 +1,5 @@
-.calhero {
+.calhero,
+.shero {
     display: flex;
     flex-direction: row;
     /* width: 90vw; */
@@ -62,6 +63,17 @@
     left: 64vw;
 }
 
+
+.scoreimg {
+    width: 302px;
+    height: 474px;
+    /* position: absolute;
+    top: 240px; */
+    margin-right: 120px;
+    z-index: 10;
+    left: 64vw;
+}
+
 /* Media query for screens with a width between 360px and 768px (inclusive) */
 @media (min-width: 360px) and (max-width: 768px) {
     .calhero {
@@ -72,6 +84,16 @@
         margin: 20px;
         margin-top: 100px;
         /* margin-bottom: 80px; */
+    }
+
+    .shero {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: 640px;
+        margin: 20px;
+        margin-top: 100px;
+        margin-bottom: 80px;
     }
 
     /* .calhero {
@@ -112,6 +134,16 @@
         /* position: static;
         left: 64vw;
         top: 240px; */
+        z-index: 10;
+    }
+
+    .scoreimg {
+        width: 100%;
+        /* height: auto; */
+        /* position: static;
+        left: 64vw;
+        top: 240px; */
+        margin-top: 24px;
         z-index: 10;
     }
 }

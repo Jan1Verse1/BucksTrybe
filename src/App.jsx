@@ -8,6 +8,7 @@ import AboutUs from "../src/Pages/AboutUs";
 import Communal from "../src/Pages/Communal";
 import Ajoo from "../src/Pages/Ajoo";
 import Calculator from "./Pages/Calculator";
+import Score from "../src/Pages/Score";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
   { path: "/communal", element: <Communal /> },
   { path: "/ajoo", element: <Ajoo /> },
   { path: "/calculator", element: <Calculator /> },
+  { path: "/score", element: <Score /> },
 ]);
 
 const App = () => {

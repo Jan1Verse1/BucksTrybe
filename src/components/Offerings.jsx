@@ -34,6 +34,19 @@ const Offerings = () => {
         </Link>
       ),
     },
+    {
+      title: "Contribution Score",
+      content:
+        "The Contribution Score is a revolutionary metric designed to measure and reward your commitment. By diligently participating in your chosen contribution groups, you're not just building a score; you're shaping a reputation of faithfulness and financial responsibility.",
+      tag: (
+        <Link to="/score">
+          <p className="learn">
+            Learn More
+            <FontAwesomeIcon icon={faArrowRightLong} className="arrow" />
+          </p>
+        </Link>
+      ),
+    },
   ];
   useEffect(() => {
     // Initialize ScrollReveal

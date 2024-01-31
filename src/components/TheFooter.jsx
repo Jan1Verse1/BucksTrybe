@@ -44,7 +44,7 @@ const Footer = () => {
             {/* <p>+234 806 731 8885</p> */}
           </div>
           <div className="contactt">
-            <p>follw buckstrybe</p>
+            <p>follow buckstrybe</p>
             <div className="socialmedia">
               <Link to={Facebook} target="_blank">
                 {" "}
