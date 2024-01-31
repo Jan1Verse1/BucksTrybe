@@ -44,11 +44,14 @@ const Calc = () => {
     const totalInterest = (totalAmount - amount).toFixed(2);
 
     // Update the UI directly by setting the values on the respective output elements
-    document.getElementById("totalAmount").innerText = totalAmount;
-    document.getElementById("totalInterest").innerText = totalInterest;
+    document.getElementById("totalAmount").innerText =
+      Number(totalAmount).toLocaleString();
+    document.getElementById("totalInterest").innerText =
+      Number(totalInterest).toLocaleString();
     document.getElementById("monthlyInstallment").innerText =
-      monthlyInstallment;
-    document.getElementById("totalPayments").innerText = totalPayments;
+      Number(monthlyInstallment).toLocaleString();
+    document.getElementById("totalPayments").innerText =
+      totalPayments.toLocaleString();
   };
 
   const onSubmit = (data) => {
