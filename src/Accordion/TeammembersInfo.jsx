@@ -7,6 +7,7 @@ import Nse from "../assets/images/Nse.jpeg";
 import Folorunsho from "../assets/images/Folorunsho.jpg";
 import Oluwatobi from "../assets/images/Oluwatobi.jpg";
 import Dotun from "../assets/images/Dotun.png";
+import Mo from "../assets/images/Mo.png";
 import Bee from "../assets/images/BeeStride.png";
 
 export const TeammembersInfo = [
@@ -21,9 +22,9 @@ export const TeammembersInfo = [
     Position: "Co-Founder & CTO",
   },
   {
-    Image: <img src={tope} alt="Tope's Picture" />,
-    Name: "MO Akande",
-    Position: "Co-Founder & CEO",
+    Image: <img src={Mo} alt="Mo's Picture" />,
+    Name: "Olamide Mabodu",
+    Position: "Co-Founder & CMO",
   },
   {
     Image: <img src={Bidemi} alt="Bidemi's Picture" />,
